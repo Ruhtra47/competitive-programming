@@ -4,7 +4,7 @@ magico = True
 for i in range(n):
     mat.append([int(x) for x in input().split()])
 
-soma = sum(mat[i])
+soma = sum(mat[0])
 for i in range(1, n):
     if sum(mat[i]) != soma:
         magico = False
